@@ -10,17 +10,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
 </head>
 
-<body>
-    <div id="container">
-        <h1 class="text-center">Result Analysis</h1>
+<body class="bg-secondary">
+    <div class="container">
+        <h1 class="text-center mt-5">Result Analysis</h1>
         <div class="mb-3">
-            <label for="formFile" class="form-label mx-5" id="labelid">Choose a File</label>
-            <input class="form-control mx-5" type="file" id="formFile" accept="xlsx,xls,xlsm,xltx,xltm,csv,ods">
+            
         </div>
-        <div class="position-absolute top-50 start-50 translate-middle">
-            <button type="button" id="myButton" class="btn btn-outline-primary mx-5 ">Uplode</button>
+        <div class="d-flex justify-content-center">
+            <button type="button" id="myButton" class="btn btn-primary ">Uplode</button>
         </div>
 
+        <div class="row bg-primary">
+            <div class="col-6">
+                <label for="formFile" class="form-label" id="labelid">Choose a File</label>
+            <input class="form-control" type="file" id="formFile" accept="xlsx,xls,xlsm,xltx,xltm,csv,ods">
+            </div>
+            <div class="col-6 bg-danger">hello</div>
+            <div class="col">hello</div>
+            <div class="col bg-danger">hello</div>
+            <div class="col">hello</div>
+            <div class="col bg-danger">hello</div>
+            <div class="col">hello</div>
+            <div class="col bg-danger">hello</div>
+            <div class="col">hello</div>
+            <div class="col bg-danger">hello</div>
+            <div class="col">hello</div>
+            <div class="col bg-danger">hello</div>
+        </div>
         <!-- <div id="fileContent" class="mx-5 mt-3"></div>
 
         <script>
